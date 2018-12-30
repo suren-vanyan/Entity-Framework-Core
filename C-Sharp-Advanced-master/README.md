@@ -4,7 +4,7 @@
 # 1.Regular Expressions
 |Solution|URL|
 |---|---|
-|[AllLongestString](https://github.com/suren-vanyan/CodeSignal/tree/master/Intro/AllLongestString)|[Program.cs](https://github.com/suren-vanyan/CodeSignal/blob/master/Intro/AllLongestString/AllLongestString/Program.cs)
+|[Are_Brackets_Correct]|[.cs](https://github.com/HakobyanAni/C-Sharp-Advanced/tree/master/Are_Brackets_Correct/Are_Brackets_Correct)
 
 
 
