@@ -4,8 +4,8 @@
 # 1.Regular Expressions
 |Solution Name|URL|
 |---|---|
-|Are_Brackets_Correct|[.cs](https://github.com/HakobyanAni/C-Sharp-Advanced/tree/master/Are_Brackets_Correct/Are_Brackets_Correct)
-|Float_Numbers_In_The_Brackets|[.cs](https://github.com/HakobyanAni/C-Sharp-Advanced/tree/master/Float_Numbers_In_The_Brackets/Float_Numbers_In_The_Brackets)
+|Are_Brackets_Correct|[.cs](https://github.com/HakobyanAni/C-Sharp-Advanced/blob/master/Are_Brackets_Correct/Are_Brackets_Correct/Program.cs)
+|Float_Numbers_In_The_Brackets|[.cs](https://github.com/HakobyanAni/C-Sharp-Advanced/blob/master/Float_Numbers_In_The_Brackets/Float_Numbers_In_The_Brackets/Program.cs)
 
 # 2.Delegate
 |Solution Name|URL|
