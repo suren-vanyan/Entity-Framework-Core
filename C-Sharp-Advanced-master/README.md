@@ -14,5 +14,5 @@
 # 2.Enum
 |Solution Name|URL|
 |---|---|
-|Employee_Premium|[.cs](https://github.com/HakobyanAni/C-Sharp-Advanced/tree/master/Employee_Premium/Employee_Premium)
+|Employee_Premium|[.cs](https://github.com/HakobyanAni/C-Sharp-Advanced/blob/master/Employee_Premium/Employee_Premium/Program.cs)
 
