@@ -1,27 +1,27 @@
 
 # Advanced C# Programming Course :white_check_mark:
 
-# 3.Enum
+# :large_orange_diamond:.Enum
 |Solution Name|URL|
 |---|---|
 |Employee_Premium|[.cs](https://github.com/HakobyanAni/C-Sharp-Advanced/blob/master/Employee_Premium/Employee_Premium/Program.cs)
 
-# 2.Delegate
+# :large_orange_diamond:.Delegate
 |Solution Name|URL|
 |---|---|
 |Arithmetic_operations_with_lambda_operator|[.cs](https://github.com/HakobyanAni/C-Sharp-Advanced/tree/master/Arithmetic_operations_with_lambda_operator/Arithmetic_operations_with_lambda_operator)
 
-# 3.Collection
+# :large_orange_diamond:.Collection
 |Solution Name|URL|
 |---|---|
 |LatToArm_Converter|[.cs](https://github.com/HakobyanAni/C-Sharp-Advanced/tree/master/LatToArm_Converter/LatToArm_Converter)
 
-# 4.System.IO
+# :large_orange_diamond:.System.IO
 |Solution Name|URL|
 |---|---|
 |Print_All_Files_In_Disk_D|[.cs](https://github.com/HakobyanAni/C-Sharp-Advanced/blob/master/Print_All_Files_In_Disk_D/Print_Files/Program.cs)
 
-# 5.Regular Expressions
+# :large_orange_diamond:.Regular Expressions
 |Solution Name|URL|
 |---|---|
 |Working_with_strings--Mail_Adress_Validation|[.cs](https://github.com/HakobyanAni/C-Sharp-Advanced/blob/master/Working_with_strings/Mail_Adress_Validation/Program.cs)
