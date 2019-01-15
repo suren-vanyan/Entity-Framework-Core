@@ -1,3 +1,3 @@
-# Entity-Framework-Core
 
-![bitmap-medium_entity-framework-core-logo_2colors_square_boxed_rgb](https://user-images.githubusercontent.com/38188753/51077149-b1407e00-16bb-11e9-9cf5-0982aacfe798.png)
+
+# Entity-Framework-Core <br\> Documentation on using EF Core is available at <https://docs.microsoft.com/ef/core/>.  <img src="https://user-images.githubusercontent.com/38188753/51077149-b1407e00-16bb-11e9-9cf5-0982aacfe798.png" align="right" width="150px" height="150px" /> 
