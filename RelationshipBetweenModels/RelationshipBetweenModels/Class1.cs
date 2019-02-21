@@ -11,7 +11,7 @@ namespace RelationshipBetweenModels
     public class Team
     {
         public int Id { get; set; }
-        public string Name { get; set; } // название команды
+        public string Name { get; set; } 
 
         public List<Player> Players { get; set; }
     }
@@ -21,30 +21,7 @@ namespace RelationshipBetweenModels
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public string TeamName { get; set; }
-        public Team Team { get; set; }
-    }
-
-    public class ApplicationContext : DbContext
-    {
-        public DbSet<Team> Teams { get; set; }
-        public DbSet<Player> Players { get; set; }
-        public ApplicationContext()
-        {
-            Database.EnsureCreated();
-        }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=relationsdb;Trusted_Connection=True;");
-        }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Player>()
-             .HasOne(p => p.Team)
-             .WithMany(t => t.Players)
-             .HasForeignKey(p => p.TeamName)
-             .HasPrincipalKey(t => t.Name);
-        }
+        public int? TeamId { get; set; } 
+        public Team Team { get; set; }  
     }
 }
