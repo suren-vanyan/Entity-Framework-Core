@@ -21,8 +21,7 @@ namespace RelationshipBetweenModels
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public int TeamInfoKey { get; set; }
-        [ForeignKey("TeamInfoKey")]
+        public string TeamName { get; set; }
         public Team Team { get; set; }
     }
 
@@ -37,6 +36,15 @@ namespace RelationshipBetweenModels
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=relationsdb;Trusted_Connection=True;");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Player>()
+             .HasOne(p => p.Team)
+             .WithMany(t => t.Players)
+             .HasForeignKey(p => p.TeamName)
+             .HasPrincipalKey(t => t.Name);
         }
     }
 }
