@@ -18,18 +18,17 @@ namespace RelationshipBetweenModels
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<StudentCourse>()
-                .HasKey(t => new { t.StudentId, t.CourseId });
+            modelBuilder.Entity<StudentCourse>().HasKey(s => new { s.CourseId, s.StudentId });
 
             modelBuilder.Entity<StudentCourse>()
-                .HasOne(sc => sc.Student)
+                .HasOne(s => s.Student)
                 .WithMany(s => s.StudentCourses)
-                .HasForeignKey(sc => sc.StudentId);
+                .HasForeignKey(s => s.StudentId);
 
             modelBuilder.Entity<StudentCourse>()
-                .HasOne(sc => sc.Course)
-                .WithMany(c => c.StudentCourses)
-                .HasForeignKey(sc => sc.CourseId);
+                .HasOne(s => s.Course)
+                .WithMany(s => s.StudentCourses)
+                .HasForeignKey(s => s.CourseId);
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
