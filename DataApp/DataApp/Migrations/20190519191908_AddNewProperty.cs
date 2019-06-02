@@ -14,6 +14,7 @@ namespace DataApp.Migrations
                 nullable: false,
                 defaultValue: 0);
 
+
             migrationBuilder.AddColumn<bool>(
                 name: "InStock",
                 table: "Products",
